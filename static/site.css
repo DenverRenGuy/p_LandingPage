@@ -1,0 +1,61 @@
+/*Landing Page CSS stylehseet
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2{
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+
+h3{
+    color: #FD3283;
+    font-size: 125%;
+}
+
+legend{
+    padding: 0.2em 0.5em;
+    border: 1px solid #FF3281;
+    color: #FF3281;
+    font-size: 90%;
+    text-align: right;
+}
+
+fieldset{
+    border: 1px #F5F861 solid;
+}
+
+
+
+#wrapper{
+    width: 920px;
+    margin: auto;
+}
+
+#submit{
+    padding: .2em .4em;
+    background-color: #F5F861;
+    color: #FF3281;
+    border: none;
+    margin-top: 1em;
+
+}
+
+.ninja_info{
+    padding: 30px 0px 30px 0px;
+    display: block;
+    background-color: #82FFFF;
+}
+
+    .ninja_info p{
+        color: #FF9751;
+    }
+
+.ninja_form{
+    width: 500px;
+    margin: 0 auto;
+}

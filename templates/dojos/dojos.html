@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Land Page Assignment | Coding Dojo | Dojo Page</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='site.css') }}" type="text/css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <h1>You have reached the dojo submit page.  Where you can request ancient Loraxification!</h1>
+
+            <h2>Please fill out the form below!</h2>
+
+            <form class="ninja_form" action="#" method="post">
+                <fieldset>
+                    <legend>Personal Ninja Info:</legend>
+                    <input type="text" name="firstName" placeholder="First Name" value="">
+                    <input type="text" name="lastName" placeholder="Last Name" value="">
+                </fieldset>
+                <fieldset>
+                    <legend>Loraxification:</legend>
+                    <input type="text" name="ancientThing" placeholder="Ancient thing to Loraxify?" value="">
+                </fieldset>
+                <input type="submit" name="submitButton" value="Begin Loraxify" id="submit">
+            </form>
+        </div>
+    </body>
+</html>
